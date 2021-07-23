@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "eazy_rxes",
+  "info": {
+    "name": "eazy-rx"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "weights": {
+      "type": "json"
+    },
+    "drugs": {
+      "type": "json"
+    },
+    "dosages": {
+      "type": "json"
+    }
+  }
+}
