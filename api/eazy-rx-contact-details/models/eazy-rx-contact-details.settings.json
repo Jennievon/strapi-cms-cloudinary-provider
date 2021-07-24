@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "eazy_rx_contact_details",
+  "info": {
+    "name": "eazy_rx_contact_details"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "twitter_link": {
+      "type": "string"
+    },
+    "instagram_link": {
+      "type": "string"
+    },
+    "facebook_link": {
+      "type": "string"
+    },
+    "linkedin_link": {
+      "type": "string"
+    },
+    "email_address": {
+      "type": "email"
+    },
+    "phone_number": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}

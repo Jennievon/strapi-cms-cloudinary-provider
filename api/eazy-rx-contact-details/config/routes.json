@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/eazy-rx-contact-details",
+      "handler": "eazy-rx-contact-details.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/eazy-rx-contact-details",
+      "handler": "eazy-rx-contact-details.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/eazy-rx-contact-details",
+      "handler": "eazy-rx-contact-details.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

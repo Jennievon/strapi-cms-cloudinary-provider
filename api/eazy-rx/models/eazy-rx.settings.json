@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "eazy_rxes",
   "info": {
-    "name": "eazy-rx"
+    "name": "eazy-rx",
+    "description": ""
   },
   "options": {
     "increments": true,
